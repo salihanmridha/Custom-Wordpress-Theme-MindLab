@@ -1,0 +1,39 @@
+/*
+Theme Name: Tonmoy_Special
+Theme URI: http://wordpress.org/
+Description: This is the for practise
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Tags:none
+*/
+
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+img.alignright {float:right; margin:0 0 1em 1em; border:5px solid #000;}
+img.alignleft {float:left; margin:0 1em 1em 0; border:5px solid #000;}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto; border:5px solid #000;}
+a img.alignright {float:right; margin:0 0 1em 1em; border:5px solid #000;}
+a img.alignleft {float:left; margin:0 1em 1em 0; border:5px solid #000; opacity: 0.5;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto; border:5px solid #000;} 
+a:hover img.alignleft {float:left; margin:0 1em 1em 0; border:5px solid #000; opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .35s ease-in-out;
+   -webkit-transition: opacity .35s ease-in-out;}
+   
+   
+   
+   #nav ul li a.current{
+		
+		height:44px; background:#0C0;
+}
+#nav li.current-menu-item a, #nav li.current-menu-parent a
+{
+	height:44px; border:1px 1px 10px 1px #000;
+}
+
